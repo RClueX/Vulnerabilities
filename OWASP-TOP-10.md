@@ -45,3 +45,23 @@ Security logging and monitoring failures are security vulnerabilities that can o
     
 SSRF attack involves an attacker abusing server functionality to access or modify resources. The attacker targets an application that supports data imports from URLs or allows them to read data from URLs.
 
+---
+
+
+## Common Web Application Security Risks
+
+
+| Category | Vulnerabilities |
+|---|---|
+| Broken Access Control |  - Insecure Direct Object References (IDOR) <br> - Vertical/Horizontal Privilege Escalation <br> - Forced Browsing <br> - CSRF Attacks <br> - Session-related Attacks <br> - Path Traversal <br> - Directory Listing  <br> - Back Button Vulnerability <br> - Open Redirection |
+| Cryptographic Failures | - Weak SSL/TLS Cipher Protocols <br> - Missing HTTPS Schema <br> - Weak Random Functions <br> - Improper Cryptographic Key Management <br> - Failure to Verify Cryptographic Signatures <br> - Key Length and Strength Issues <br> - Padding Oracle Attacks <br> - Weak Encryption Algorithms (DES, MD5) <br> - Lack of Perfect Forward Secrecy (PFS) <br> - Side-Channel Attacks |
+| Injection | - SQL Injection <br> - OS Command Injection <br> - Cross-Site Scripting (XSS) <br> - XML External Entity Injection (XXE) <br> - CSV Injection <br> - Server-Side Template Injection (SSTI) <br> - Local File Inclusion (LFI) / Remote File Inclusion (RFI) <br> - LDAP Injection <br> - IFrame Injection <br> - HTML Injection |
+| Insecure Design | - Uploading Malicious Files <br> - Race Conditions <br> - External XML Entities <br> - XSS through File Name/Type (SVG) <br> - Sensitive Data in Browser Cookies <br> - Missing File Size Validation <br> - Missing Account Lockout Policy <br> - Weak Input Validation <br> - Rate Limiting Bypass <br> - Account Verification Bypass |
+| Security Misconfiguration | - CORS Misconfiguration <br> - Guessable CAPTCHA <br> - Clickjacking <br> - HTTP Request Smuggling <br> - Working Default Credentials <br> - Improper Error Handling <br> - Absent/Weak Security Headers <br> - Sensitive Cookie Without 'HttpOnly' Flag <br> - Password in Configuration File <br> - Cleartext Storage of Sensitive Information |
+| Vulnerable and Outdated Components | - Components with Known Vulnerabilities <br> - Unpatched Dependencies <br> - Unmaintained Libraries <br> - Vulnerable jQuery Version <br> - Vulnerable Bootstrap Version <br> - Vulnerable Server Version Disclosure <br> - Vulnerable ASP.NET Version Disclosure <br> - Vulnerable Framework Version Disclosure |
+| Identification and Authentication Failures | - Session Hijacking <br> - Session Fixation <br> - Weak Password Recovery Mechanisms <br> - Weak Password Requirements <br>  - Insufficient Session Expiration <br> - Unverified Password Change <br> - Username/Password Enumeration <br> - Brute Force Attacks <br> - CAPTCHA Bypass |
+| Software and Data Integrity Failures | - Insecure Deserialization <br> - Missing Integrity Checks <br> - Untrusted External Source Inclusion |
+| Security Logging and Monitoring Failures | - Logging Sensitive Information <br> - Lack of Logging Important Information <br> - Log Injection/Forging |
+
+
+
