@@ -33,7 +33,7 @@ Vulnerable and outdated components If the components you are using to build your
    
 Identification and authentication failures are vulnerabilities related to applications' authentication schemes. Such failures can lead to serious and damaging data breaches.
 
-**8.	Software and data integrity failures **
+**8.	Software and data integrity failures**
 
 Software and data integrity failures are vulnerabilities in software or infrastructure that allow an attacker to modify or delete data in an unauthorized manner. Attackers can exploit these vulnerabilities to gain access to sensitive information.
  
